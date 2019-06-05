@@ -13,6 +13,7 @@ public class TestController {
     @RequestMapping("test")
     public String test(){
           int a=0;
+        System.out.println(a);
         return "test";
     }
 }
